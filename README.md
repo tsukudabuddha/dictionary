@@ -1,5 +1,7 @@
 # Dictionary Take Home Assignment
-## Disclaimers: I used ChatGPT for the valid word finding solution + Setup the Tamagui + Solito + Next + Expo Monorepo using the Tamagui starter (see it's README below)
+## Disclaimers: 
+- I used ChatGPT for the valid word finding solution. I feel that the problem was appropriate for ChatGPT and I wanted to spend some more time showing some react native code... also I've been meaning to checkout Tamagui for awhile and I decided to use it once I heard there was a take home assignment.
+- The Tamagui + Solito + Next + Expo Monorepo was setup using the Tamagui starter (see it's README below)
 
 ## Files to checkout 
 [`packages/app/features/dictionary/utils/getListOfValidWords.ts`](https://github.com/tsukudabuddha/dictionary/blob/main/packages/app/features/dictionary/utils/getListOfValidWords.ts)
@@ -14,8 +16,8 @@
 [`packages/app/features/dictionary/constants/dictionary.ts`](https://github.com/tsukudabuddha/dictionary/blob/main/packages/app/features/dictionary/constants/dictionary.ts)
 - Not particularly interesting, it's just the list of words the app is using. It's a list of >350 of the most common English words + some I added for testing.
 
-
-
+## Try out the apps
+See [Start the app](#start-the-app)
 
 # Tamagui + Solito + Next + Expo Monorepo README
 
