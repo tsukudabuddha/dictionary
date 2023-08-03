@@ -17,7 +17,7 @@
 - Not particularly interesting, it's just the list of words the app is using. It's a list of >350 of the most common English words + some I added for testing.
 
 ## Try out the apps
-See [Start the app](#start-the-app)
+See [Start the app](#-start-the-app)
 
 # Tamagui + Solito + Next + Expo Monorepo README
 
