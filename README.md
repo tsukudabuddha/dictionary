@@ -2,7 +2,7 @@
 ## Disclaimers: I used ChatGPT for the valid word finding solution + Setup the Tamagui + Solito + Next + Expo Monorepo using the Tamagui starter (see it's README below)
 
 ## Files to checkout 
-`packages/app/features/dictionary/utils/getListOfValidWords.ts`
+[`packages/app/features/dictionary/utils/getListOfValidWords.ts`](https://github.com/tsukudabuddha/dictionary/blob/main/packages/app/features/dictionary/detail-screen.tsx)
 - function that was requested for the take home
 
 `packages/app/features/dictionary/detail-screen.tsx`
