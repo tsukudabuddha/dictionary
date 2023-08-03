@@ -14,7 +14,10 @@
 [`packages/app/features/dictionary/constants/dictionary.ts`](https://github.com/tsukudabuddha/dictionary/blob/main/packages/app/features/dictionary/constants/dictionary.ts)
 - Not particularly interesting, it's just the list of words the app is using. It's a list of >350 of the most common English words + some I added for testing.
 
-# Tamagui + Solito + Next + Expo Monorepo
+
+
+
+# Tamagui + Solito + Next + Expo Monorepo README
 
 ```sh
 npm create tamagui
