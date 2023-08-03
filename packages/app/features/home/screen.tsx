@@ -22,9 +22,6 @@ export const HomeScreen = () => {
         <Text ta="center">
           Disclaimer: I used ChatGPT to write the dictionary exercise. 
         </Text>
-        <Paragraph>
-          ChatGPT is pretty good at solving straightforward technical problems and I wanted to spend more time trying out Tamagui
-        </Paragraph>
 
         <Separator />
        

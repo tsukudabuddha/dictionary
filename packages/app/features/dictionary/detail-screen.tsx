@@ -1,7 +1,7 @@
-import { Button, H1, H3, Input, ListItem, Paragraph, ScrollView, Sheet, YStack } from '@my/ui'
-import { ChevronDown, ChevronLeft } from '@tamagui/lucide-icons'
+import { H3, Input, Paragraph, YStack } from '@my/ui'
 import React, { useState } from 'react'
-import { getListOfValidWords } from './utils/getListOfValidWords'
+import { WordListSheet } from './sheet'
+import { DICTIONARY } from './constants/dictionary'
 
 
 export function DictionaryDetailScreen() {
@@ -20,69 +20,9 @@ export function DictionaryDetailScreen() {
       </YStack>
       <YStack ai="center" space="$20">
         <Input onChangeText={handleOnTextChange} size="$4" borderWidth={2} width={200}/>
-        <ListSheet inputText={inputText}/>
+        <WordListSheet inputText={inputText}/>
       </YStack>
       
     </YStack>
-  )
-}
-
-type Props = {
-  inputText: string
-}
-
-function ListSheet({ inputText }: Props) {
-  const [open, setOpen] = useState(false)
-  const [position, setPosition] = useState(0)
-
-  const words = getListOfValidWords({ inputText })
-
-  const handleOnPress = () => {
-    setOpen((x) => !x)
-  }
-
-  // TODO: Replace the word list YStack with some kind of list component
-
-  return (
-    <>
-      <Button
-        icon={open ? ChevronDown : undefined}
-        onPress={handleOnPress}
-      >{open ? undefined : 'List words'}</Button>
-      <Sheet
-        modal
-        open={open}
-        onOpenChange={setOpen}
-        snapPoints={[80]}
-        position={position}
-        onPositionChange={setPosition}
-        dismissOnSnapToBottom
-        disableDrag
-      >
-        <Sheet.Overlay />
-        <Sheet.Frame ai="center" space>
-          {/* <Sheet.Handle /> */}
-          <YStack ai="center">
-            <H3>String Entered:</H3>
-            <Paragraph>{inputText}</Paragraph>
-          </YStack>
-          <ScrollView>
-            <YStack ai="center">
-              <H3>Words Found:</H3>
-              {words.map(word => (<Paragraph>{word}</Paragraph>))}
-            </YStack>
-          </ScrollView>
-          <Button
-            size="$6"
-            circular
-            icon={ChevronDown}
-            onPress={() => {
-              setOpen(false)
-            }}
-            mb={20}
-          />
-        </Sheet.Frame>
-      </Sheet>
-    </>
   )
 }
