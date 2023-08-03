@@ -1,6 +1,6 @@
 # Dictionary Take Home Assignment
 ## Disclaimers: 
-- I used ChatGPT for the valid word finding solution. I feel that the problem was appropriate for ChatGPT and I wanted to spend some more time showing some react native code... also I've been meaning to checkout Tamagui for awhile and I decided to use it once I heard there was a take home assignment 😁
+- I used ChatGPT for the valid word finding solution. I feel that the provided problem was a good candidate to be solved by ChatGPT and I wanted to spend some more time showing some react native code... also I've been meaning to checkout Tamagui for awhile and I decided to use it once I heard there was a take home assignment 😁
 - The Tamagui + Solito + Next + Expo Monorepo was setup using the Tamagui starter (see it's README below)
 
 ## Files to checkout 
