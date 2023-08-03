@@ -3,6 +3,16 @@
 - I used ChatGPT for the valid word finding solution. I feel that the provided problem was a good candidate to be solved by ChatGPT and I wanted to spend some more time showing some react native code... also I've been meaning to checkout Tamagui for awhile and I decided to use it once I heard there was a take home assignment 😁
 - The Tamagui + Solito + Next + Expo Monorepo was setup using the Tamagui starter (see it's README below)
 
+## Demos
+### React Native
+
+https://github.com/tsukudabuddha/dictionary/assets/10263083/40d55a0c-5202-4088-9ca6-133d85c2c183
+
+### Web
+
+https://github.com/tsukudabuddha/dictionary/assets/10263083/50cb04fa-ceb3-4258-af51-feb66aeafd3c
+
+
 ## Files to checkout 
 [`packages/app/features/dictionary/utils/getListOfValidWords.ts`](https://github.com/tsukudabuddha/dictionary/blob/main/packages/app/features/dictionary/utils/getListOfValidWords.ts)
 - function that was requested for the take home
