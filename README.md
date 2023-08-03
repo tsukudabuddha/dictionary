@@ -2,17 +2,17 @@
 ## Disclaimers: I used ChatGPT for the valid word finding solution + Setup the Tamagui + Solito + Next + Expo Monorepo using the Tamagui starter (see it's README below)
 
 ## Files to checkout 
-[`packages/app/features/dictionary/utils/getListOfValidWords.ts`](https://github.com/tsukudabuddha/dictionary/blob/main/packages/app/features/dictionary/detail-screen.tsx)
+[`packages/app/features/dictionary/utils/getListOfValidWords.ts`](https://github.com/tsukudabuddha/dictionary/blob/main/packages/app/features/dictionary/utils/getListOfValidWords.ts)
 - function that was requested for the take home
 
-`packages/app/features/dictionary/detail-screen.tsx`
+[`packages/app/features/dictionary/detail-screen.tsx`](https://github.com/tsukudabuddha/dictionary/blob/main/packages/app/features/dictionary/detail-screen.tsx)
 - Screen that takes in string input
 
-`packages/app/features/dictionary/sheet.tsx`
+[`packages/app/features/dictionary/sheet.tsx`](https://github.com/tsukudabuddha/dictionary/blob/main/packages/app/features/dictionary/sheet.tsx)
 - Sheet that displays the input text + the words that can be created from it
 
-`packages/app/features/dictionary/constants/dictionary.ts`
-- Not super important, just the list of words the app is using. It's a list of >350 of the most common English words + some I added for testing.
+[`packages/app/features/dictionary/constants/dictionary.ts`](https://github.com/tsukudabuddha/dictionary/blob/main/packages/app/features/dictionary/constants/dictionary.ts)
+- Not particularly interesting, it's just the list of words the app is using. It's a list of >350 of the most common English words + some I added for testing.
 
 # Tamagui + Solito + Next + Expo Monorepo
 
